@@ -27,6 +27,16 @@ Desarrollado por Lucas Alvaro Flores (LucasAFlores)
 
 Página para explorar los proyectos de la plataforma. Incluye una barra de filtros para ordenar por categoría, año y estado (En curso / Finalizado). Se listan 5 proyectos, cada uno con título, imagen, descripción breve, categoría y un enlace para ver el detalle.
 
+Se introdujo un menú de navegación: Con la etiqueta <nav>, se colocó una barra superior que permite saltar entre las distintas páginas del sitio sin complicaciones.
+
+Se incluyó una zona de filtros: Se utilizó un <aside> para separar la barra de búsqueda del contenido principal. Dentro de esta parte, se agregaron selectores (<select>) para que se pueda filtrar la información por materia, año o estado del proyecto.
+
+Se organizaron los proyectos en fichas: Para cada uno de los 5 proyectos, se usó la etiqueta <article>. De esta manera, cada trabajo quedó contenido en su propia "tarjeta" con su título, descripción y foto.
+
+Se incorporaron imágenes con descripción: En cada ficha se insertó una imagen representativa. Se agrego el atributo alt, donde se describió qué hay en cada foto para que la página sea más accesible.
+
+Se vincularon las páginas: Al final de cada proyecto, se puso un enlace que lleva directamente a la página de detalles, logrando que todo el sitio esté conectado entre sí.
+
 ---
 
 detalle.html — Detalle de Proyecto
