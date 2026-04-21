@@ -1,31 +1,72 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Perfil de Usuario</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
 <body>
-    <nav>
+     <header>
+        <h1>Campus de la facultad de Ingeniería</h1>
+        <p>Perfiles del Equipo</p>
+    </header>
+    <nav id="navperfil">
         <a href="index.html" target="_blank">Dashboard Principal</a>
         <a href="proyectos.html" target="_blank">Explorador de Proyectos</a>
         <a href="detalle.html" target="_blank">Detalle de Proyecto</a>
     </nav>
-    <main>
-        <h2>Docente</h2>
-        <ul>
-            <li>JUAN CARLOS RODRIGUEZ</li>
-            <img src="imagenes/0.jpg" alt="profe" width="100">
-        </ul>
-        <h2>Alumnos</h2>
-        <ul>
-            <li>MAURO ARCANGEL CHAUQUE</li>
-            <img src="imagenes/1.png" alt="mauro" width="100">
-            <li>LUCAS ALVARO LAUTARO FLORES</li>
-            <img src="imagenes/2.png" alt="lucas" width="100">
-            <li>GABRIEL FERNANDO ORTEGA</li>
-            <img src="imagenes/3.png" alt="gabriel" width="100">
-            <li>FEDERICO HERNAN RIOS MARCIAL</li>
-            <img src="imagenes/4.jpg" alt="fede" width="100">
-            <li>BRIAN AGUSTIN VEGA</li>
-            <img src="imagenes/5.png" alt="brian" width="100">
-        </ul>
-    </main>
+<main>
+    <h2 id="profesor">Docente</h2>
+    <ul>
+        <li class="profesor">
+            <strong>JUAN CARLOS RODRIGUEZ</strong><br>
+            <img src="imagenes/0.jpg" alt="profe" width="100"><br>
+            Rol: Docente<br>
+            Materia: Programación Visual<br>
+            Email: juan.rodriguez@fi.unju.edu.ar
+        </li>
+    </ul>
 
+    <h2 id="alumnos">Alumnos</h2>
+    <ul>
+        <li class="alumnos">
+            <strong>MAURO ARCANGEL CHAUQUE</strong><br>
+            <img src="imagenes/1.png" width="100"><br>
+            Carrera: Analista Programador Universitario<br>
+            Año: 2° año
+        </li>
+
+        <li class="alumnos">
+            <strong>LUCAS ALVARO LAUTARO FLORES</strong><br>
+            <img src="imagenes/2.png" width="100"><br>
+            Carrera: Analista Programador Universitario<br>
+            Año: 2° año
+        </li>
+
+        <li class="alumnos">
+            <strong>GABRIEL FERNANDO ORTEGA</strong><br>
+            <img src="imagenes/3.png" width="100"><br>
+            Carrera: Analista Programador Universitario<br>
+            Año: 2° año
+        </li>
+
+        <li class="alumnos">
+            <strong>FEDERICO HERNAN RIOS MARCIAL</strong><br>
+            <img src="imagenes/4.jpg" width="100"><br>
+            Carrera: Analista Programador Universitario<br>
+            Año: 2° año
+        </li>
+
+        <li class="alumnos">
+            <strong>BRIAN AGUSTIN VEGA</strong><br>
+            <img src="imagenes/5.png" width="100"><br>
+            Carrera: Analista Programador Universitario<br>
+            Año: 2° año
+        </li>
+    </ul>
+</main>
+    <footer>
+        <p>&copy; 2026 Campus de la Facultad de Ingeniería - Programación Visual</p>
+    </footer>
 </body>
