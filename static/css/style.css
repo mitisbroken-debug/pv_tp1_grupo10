@@ -1,0 +1,63 @@
+.alumnos, .profesor{
+    font-size: 18px;
+    font-weight: bold;
+}
+#alumnos{
+    width: 300px;
+    background-color: #22c55e;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#profesor{
+    width: 300px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+#navperfil {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+a {
+      color: #1f2937;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+    }
+a:hover {
+    color: #2563eb;
+}
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+body{ 
+    background-color: #f5f7fa;
+    color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  
