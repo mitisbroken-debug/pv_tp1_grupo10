@@ -1,3 +1,4 @@
+/*Inicio archivo Perfil.css*/
 .alumnos, .profesor{
     font-size: 18px;
     font-weight: bold;
@@ -60,4 +61,5 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-  
+ /*Final archivo Perfil.css*/
+ 
