@@ -62,4 +62,62 @@ body{
 }
 
  /*Final archivo Perfil.css*/
+ /*Inicio archivo Detalle.css*/
+ #navperfil1 ul {
+   display: flex;
+    justify-content: space-around;
+    background-color: white;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* Contenedor general */
+#objetivos-proyecto {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Título */
+#objetivos-proyecto h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+/* Cada párrafo  */
+#objetivos-proyecto p {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 6px solid #1f2937;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+/* Animación */
+#objetivos-proyecto p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Títulos adentro del cuadro */
+#objetivos-proyecto strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #1f2937;
+    font-size: 16px;
+}
+/* enlaces */
+#enlaces-proyecto ul {
+    display: flex;              /* horizontal */
+    justify-content: center;    /* centra */
+    gap: 20px;                  /* separación entre botones */
+    list-style: none;
+    padding: 0;
+}
+
+
+ /*Final archivo Detalles.css*/
  
