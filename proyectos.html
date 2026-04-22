@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorador de Proyectos</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="static/css/styles.css">
 
     <style>
-        section h2 { color: #05b48e; } 
+        section h2 { color: #000000; } 
     </style>
 </head>
 <body>
     <header>
-        <h1 style="color: darkcyan;text-align: center;">Campus de la Facultad de Ingeniería</h1>
+        <h1 style="color: rgb(255, 255, 255);text-align: center;">Campus de la facultad de Ingeniería</h1>
         <p>Explorador de Proyectos</p>
         
-        <nav>
+        <nav id="menudepagina">
             <ul>
                 <li><a href="index.html" title="Inicio">Dashboard</a></li>
                 <li><a href="proyectos.html" title="proyectos">Proyectos</a></li>
@@ -30,7 +30,7 @@
     <main id="contenedordeproyectos">
         <aside class="sidebar-filtros">
             <h2>Filtrar Proyectos</h2>
-            <form>
+            <form id="formulario-filtros">
                 <label for="categoria">Categoría:</label>
                 <select id="categoria">
                     <option value="todas">Todas las categorías</option>

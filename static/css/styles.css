@@ -120,35 +120,105 @@ body{
  /*Final archivo Detalles.css*/
  
 
+/* |||Inicio de Edicion de estilo de Proyectos |||*/
 
-/* Inicio de Edicion de estilo de Proyectos */
-/* Variables */
-:root {
-    --verde-facu: #05b48e;
+/* MENÚ DE NAVEGACIÓN (Dashboard, Proyectos, etc.) */
+#menudepagina ul {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    list-style: none;
+    padding: 10px;
 }
 
-/* GRID para el cuerpo */
+#menudepagina ul li a {
+    color: #f5f7fa !important; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*(Filtros a la izquierda, Catálogo a la derecha) */
 #contenedordeproyectos {
     display: grid;
-    grid-template-columns: 250px 1fr; /* Barra de filtros y Catálogo */
-    gap: 20px;
-    color:darkorange
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    padding: 20px;
+    align-items: start;
 }
 
-/* FLEXBOX para las tarjetas */
-section {
-    display: flex;
-    flex-wrap: wrap; /* Para que bajen si no entran */
-    gap: 15px;
+/* GRILLA DEL CATÁLOGO */
+#contenedordeproyectos section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
 }
 
+/*PROYECTO DESTACADO */
+#contenedordeproyectos section article:first-of-type {
+    grid-column: 1 / span 2; 
+    width: 50%;
+    margin: 10 auto 20px auto;
+}
+
+#contenedordeproyectos section article:first-of-type img {
+    width: 100%;       
+    height: auto;      
+    display: block;
+    border-radius: 4px;
+}
+
+/*DISEÑO DE LAS TARJETAS*/
 .proyearticulo {
     display: flex;
     flex-direction: column;
-    border: 1px solid #9b0c0c;
-    padding: 10px;
-    width: 320px; /* Tamaño de la tarjeta */
+    background-color: rgba(244, 250, 247, 0.452); 
+    border: 2px solid #01a070;
+    border-radius: 1px; 
+    padding: 20px;    
+    width: auto;      
+    gap: 1px;        
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/*FIN de edicion de estilo proyectos*/
+.proyearticulo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
 
+/* BARRA LATERAL DE FILTROS */
+.sidebar-filtros {
+    background-color: transparent;
+    padding: 20px;
+}
+
+#formulario-filtros {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+#formulario-filtros select, 
+#formulario-filtros button {
+    padding: 15px;   
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #074e88;
+    font-size: 16px;
+}
+
+#formulario-filtros button {
+    background-color: #01a070;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+#formulario-filtros button:hover {
+    background-color: #017a55; 
+}
+
+/* FIN de edicion de estilo proyectos */
