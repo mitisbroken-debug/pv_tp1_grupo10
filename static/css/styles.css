@@ -119,14 +119,13 @@ body{
 }
  /*Final archivo Detalles.css*/
  
-
 /* |||Inicio de Edicion de estilo de Proyectos |||*/
 
 /* MENÚ DE NAVEGACIÓN (Dashboard, Proyectos, etc.) */
 #menudepagina ul {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 80px;
     list-style: none;
     padding: 10px;
 }
@@ -135,13 +134,13 @@ body{
     color: #f5f7fa !important; 
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /*(Filtros a la izquierda, Catálogo a la derecha) */
 #contenedordeproyectos {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 240px 1fr;
     gap: 30px;
     padding: 20px;
     align-items: start;
@@ -151,7 +150,7 @@ body{
 #contenedordeproyectos section {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 30px;
+    gap: 20px;
 }
 
 /*PROYECTO DESTACADO */
