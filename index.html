@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styles.css">
     <title>Dashboard Principal</title>
 </head>
-<body>
-    <header>
-        <h1>Campus de la facultad de Ingeniería</h1>
-        <p>Bienvenidos a los usuarios en esta plataforma van a poder gestionar su cursado </p>
-    </header>
-    <nav>
-        <ul>
-            <!--<li><a href="index.html" title="Inicio">Dashboard</a></li> -->
-            <li> <a href="perfil.html" title="perfiles de usuarios">Perfiles</a></li>
-            <li> <a href="detalle.html" title="detalles">Detalles</a></li>
-            <li> <a href="proyectos.html" title="proyectos">Proyectos</a> </li>
-        </ul>
-    </nav>
-    <hr>
-
-    <main>
-        <section>
-          <h2>Estadisticas</h2>
-            <article>
-                <h3>Proyectos Totales</h3>
-                <p> En esta seccion veras la cantidad de proyectos</p>
-            </article>
-        <article>
-            <h3>Tareas para hoy</h3>
-            <p> En esta seccion encontraras las tareas de esta semana </p>
-        </article>
-         <article>
-            <h3>Mensajes Pendientes</h3>
-            <p> En esta seccion podras enviar y recibir los mensajes de tus profesores y alumnos</p>
-        </article>
-        </section>
-        <hr>
-
-    <section>
-        <h2>Novedades</h2>
-        <article>
-            <h3>Actividades Recientes</h3>
+<body id="dashboard-ingenieria">
+    <div class="db-container">
+        <header class="db-header">
+            <h1 class="db-title">Campus de la facultad de Ingeniería</h1>
+            <p>Bienvenidos a los usuarios en esta plataforma van a poder gestionar su cursado</p>
+        </header>
+    <nav class="db-nav">
             <ul>
-                <li>Chauque Mauro hizo un aporte</li>
-                <li>Flores Lucas hizo un aporte</li>
-                <li>Marcial Federico hizo un aporte</li>
-                <li>Ortega Gabriel hizo un aporte</li>
-                <li>Vega Brian hizo un aporte</li>
+                <li><a href="perfil.html" class="db-link">Perfiles</a></li>
+                <li><a href="detalle.html" class="db-link">Detalles</a></li>
+                <li><a href="proyectos.html" class="db-link">Proyectos</a></li>
             </ul>
-        </article>
-    </section>
-    <footer>
-        <p> &copy; 2026 Campus de la Faculdad de Ingeniería -Programacion Visual </p>
-    </footer>
-    </main>
+        </nav>
+    <hr>
+    <main>
+            <section>
+                <h2 class="db-section-title">Estadísticas</h2>
+                <article class="db-card">
+                    <h3 class="db-card-title">Proyectos Totales</h3>
+                    <p>En esta sección verás la cantidad de proyectos</p>
+                </article>
+                <article class="db-card">
+                    <h3 class="db-card-title">Tareas para hoy</h3>
+                    <p>En esta seccion encontraras las tareas de esta semana </p>
+                </article>
+                <article class="db-card">
+                    <h3 class="db-card-title">Mensajes Pendientes</h3>
+                    <p>En esta seccion podras enviar y recibir los mensajes de tus profesores y alumnos</p>
+                </article>
+            </section>
+             <section>
+                <h2 class="db-section-title">Novedades</h2>
+                <article class="db-card">
+                    <h3 class="db-card-title">Actividades Recientes</h3>
+                    <ul>
+                        <li>Chauque Mauro hizo un aporte</li>
+                        <li>Flores Lucas hizo un aporte</li>
+                        <li>Marcial Federico hizo un aporte</li>
+                        <li>Ortega Gabriel hizo un aporte</li>
+                        <li>Vega Brian hizo un aporte</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <footer class="db-footer">
+            <p>&copy; 2026 Campus de la Facultad de Ingeniería</p>
+        </footer>
+    </div>
 </body>
+
 </html>
