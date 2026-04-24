@@ -62,3 +62,9 @@ Se tomó el código HTML de cada página y se validó en https://validator.w3.or
 ---
 
 Tecnologías utilizadas: HTML5 y CSS3.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Descripción del CSS (Parte 2)
+Los estilos se organizaron en un único archivo styles.css dentro de la carpeta css, y se vinculó a todos los archivos HTML mediante la etiqueta link en el head de cada uno.
+El archivo styles.css contiene los estilos de las cuatro páginas. Se usaron los tres tipos de aplicación de estilos: externo mediante el archivo styles.css, interno con una etiqueta style en el head de algunos archivos, e inline con el atributo style en etiquetas puntuales.
+Para la estructura general de las páginas se usó CSS Grid, y para los componentes internos como el menú de navegación, las tarjetas de proyectos y los formularios de filtros se usó Flexbox. Se definieron estados hover para links y botones en todas las páginas.
